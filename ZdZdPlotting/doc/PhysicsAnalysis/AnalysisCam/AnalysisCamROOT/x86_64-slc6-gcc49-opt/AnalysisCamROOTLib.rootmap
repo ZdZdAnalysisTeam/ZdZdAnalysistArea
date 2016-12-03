@@ -1,0 +1,4 @@
+[ libAnalysisCamROOTLib.so ]
+# List of selected classes
+class TChannelInfo
+header AnalysisCamROOT/TChannelInfo.h

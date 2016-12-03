@@ -1,0 +1,62 @@
+#the 'requirements' file for mana
+#author: will@cern.ch
+#see the Mana twiki page for how to make them :-)
+import waflib.Logs as msg
+
+PACKAGE = {
+   'name': 'AnalysisCamEvent',
+   'author': ["Will Buttinger"], 
+}
+
+def pkg_deps(ctx):
+   # put your package dependencies here. I've shown the old cmt code in comments
+   ctx.use_pkg('AtlasPolicy')               #use 	AtlasPolicy 	AtlasPolicy-*
+
+   ctx.use_pkg('GaudiKernel') #this package didn't need a use statement in cmt!
+   ctx.use_pkg('Control/AthenaBaseComps')   #use AthenaBaseComps AthenaBaseComps-*   Control
+   ctx.use_pkg('External/AtlasROOT')        #use 	AtlasROOT 	AtlasROOT-* External
+   ctx.use_pkg('Control/StoreGate')         #use      StoreGate      StoreGate-* Control
+   #ctx.use_pkg('External/GaudiInterface')   #use   GaudiInterface GaudiInterface-* External
+   ctx.use_pkg('External/AtlasBoost')       #use   AtlasBoost     AtlasBoost-*   External
+   ctx.use_pkg('Control/SGTools')           #use   SGTools     SGTools-*         Control
+
+   return
+
+
+def configure(ctx):
+   msg.debug('[configure] package name: '+PACKAGE['name'])
+   return
+
+def build(ctx):
+   # build artifacts
+   # e.g.:
+
+   ctx.build_dual_use_lib(
+       name = 'AnalysisCamEvent',
+       source = 'src/*.cxx',
+       use = ['GaudiKernel','AthenaBaseComps','StoreGate','ROOT','boost'],
+   )
+
+
+   #ctx.build_complib(
+   #    name = 'AnalysisCamEvent',
+   #    source = 'src/*.cxx src/components/*.cxx',
+   #    use = ['GaudiKernel',
+   #           'AthenaBaseComps',
+   #           'StoreGate',
+   #           'ROOT',
+   #           'boost',
+   #           ],
+   #    includes = '.',
+   #)
+   #ctx.build_linklib(
+   #name = 'AnalysisCamEvent',
+   #source = 'src/*.cxx',
+   #use = ['AtlasPolicy', 'Control/AthenaBaseComps',
+   #           'External/AtlasROOT','Control/StoreGate']
+   #)
+   ctx.install_headers()
+   #ctx.build_pymodule(source=['python/*.py'])
+   #ctx.install_joboptions(source=['share/*.py'])
+   return
+

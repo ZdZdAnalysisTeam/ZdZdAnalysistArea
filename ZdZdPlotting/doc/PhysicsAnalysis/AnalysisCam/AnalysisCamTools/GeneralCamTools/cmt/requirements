@@ -1,0 +1,29 @@
+package GeneralCamTools
+author will@cern.ch
+
+
+use AtlasPolicy AtlasPolicy-*
+use   GaudiInterface GaudiInterface-* External
+use AnalysisCamEvent AnalysisCamEvent-*   PhysicsAnalysis/AnalysisCam
+use AnalysisCamROOT AnalysisCamROOT-* PhysicsAnalysis/AnalysisCam
+
+#use PileupReweighting PileupReweighting-* PhysicsAnalysis/AnalysisCommon
+
+
+
+use AtlasROOT  AtlasROOT-* External
+
+private
+use xAODRootAccess xAODRootAccess-* Control
+use xAODLuminosity xAODLuminosity-* Event/xAOD
+use GoodRunsLists GoodRunsLists-* DataQuality
+use AthAnalysisBaseComps AthAnalysisBaseComps-* Control
+end_private
+
+#disable checkreq as its a pain in the neck
+action checkreq "echo 'disabling checkreq because its a pain'"
+
+library GeneralCamTools *.cxx -s=components *.cxx
+apply_pattern component_library
+
+apply_pattern declare_joboptions files="*.py"

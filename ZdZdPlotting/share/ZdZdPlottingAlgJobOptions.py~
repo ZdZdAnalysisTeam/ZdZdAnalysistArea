@@ -1,0 +1,21 @@
+#Skeleton joboption for a simple analysis job
+
+#---- Minimal joboptions -------
+
+theApp.EvtMax=-1                                         #says how many events to run over. Set to -1 for all events
+from glob import glob
+jps.AthenaCommonFlags.FilesInput = glob("/r04/atlas/will/ZdZd13TeV/NTUP4L/condor.20161118.signal_13TeV_fastSim_mc15c/all/my*")  #list of input files
+
+import AthenaRootComps.ReadAthenaRoot
+
+svcMgr.EventSelector.InputCollections = jps.AthenaCommonFlags.FilesInput()
+svcMgr.EventSelector.TupleName = "Nominal/llllTree" #change to different tree to process systematics
+
+algseq = CfgMgr.AthSequencer("AthAlgSeq")                #gets the main AthSequencer
+algseq += CfgMgr.ZdZdPlottingAlg()                                 #adds an instance of your alg to it
+
+if not hasattr(svcMgr, 'THistSvc'): svcMgr += CfgMgr.THistSvc() #only add the histogram service if not already present (will be the case in this jobo)
+svcMgr.THistSvc.Output += ["MYSTREAM DATAFILE='myfile.root' OPT='RECREATE'"] #add an output root file stream
+
+#include("AthAnalysisBaseComps/SuppressLogging.py")              #Optional include to suppress as much athena output as possible. Keep at bottom of joboptions so that it doesn't suppress the logging of the things you have configured above
+

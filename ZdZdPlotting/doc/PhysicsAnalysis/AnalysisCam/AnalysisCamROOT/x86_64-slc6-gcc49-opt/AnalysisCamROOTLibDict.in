@@ -1,0 +1,9 @@
+document root_cint AnalysisCamROOTLibDict /afs/cern.ch/work/d/diboye/ZdZdTestArea/ZdZdPlotting/doc/PhysicsAnalysis/AnalysisCam/AnalysisCamROOT/AnalysisCamROOT/TChannelInfo.h /afs/cern.ch/work/d/diboye/ZdZdTestArea/ZdZdPlotting/doc/PhysicsAnalysis/AnalysisCam/AnalysisCamROOT/AnalysisCamROOT/LinkDef.h
+make_fragment make_header /cvmfs/atlas.cern.ch/repo/sw/software/AthAnalysisBase/x86_64-slc6-gcc49-opt/2.4.22/CMT/v1r25p20160527/mgr/fragments/make_header
+make_fragment dependencies /cvmfs/atlas.cern.ch/repo/sw/software/AthAnalysisBase/x86_64-slc6-gcc49-opt/2.4.22/AthAnalysisBase/2.4.22/AtlasPolicy/cmt/fragments/dependencies
+make_fragment cleanup_header /cvmfs/atlas.cern.ch/repo/sw/software/AthAnalysisBase/x86_64-slc6-gcc49-opt/2.4.22/AthAnalysisBase/2.4.22/AtlasPolicy/cmt/fragments/cleanup_header
+make_fragment root_cint -suffix=h -header=root_cint_header -trailer=root_cint_trailer /cvmfs/atlas.cern.ch/repo/sw/software/AthAnalysisBase/x86_64-slc6-gcc49-opt/2.4.22/AthAnalysisBase/2.4.22/External/AtlasROOT/cmt/fragments/root_cint
+make_fragment root_cint_header /cvmfs/atlas.cern.ch/repo/sw/software/AthAnalysisBase/x86_64-slc6-gcc49-opt/2.4.22/AthAnalysisBase/2.4.22/External/AtlasROOT/cmt/fragments/root_cint_header
+make_fragment root_cint_trailer /cvmfs/atlas.cern.ch/repo/sw/software/AthAnalysisBase/x86_64-slc6-gcc49-opt/2.4.22/AthAnalysisBase/2.4.22/External/AtlasROOT/cmt/fragments/root_cint_trailer
+make_fragment document_header /cvmfs/atlas.cern.ch/repo/sw/software/AthAnalysisBase/x86_64-slc6-gcc49-opt/2.4.22/CMT/v1r25p20160527/mgr/fragments/document_header
+make_fragment dependency /cvmfs/atlas.cern.ch/repo/sw/software/AthAnalysisBase/x86_64-slc6-gcc49-opt/2.4.22/CMT/v1r25p20160527/mgr/fragments/dependency
