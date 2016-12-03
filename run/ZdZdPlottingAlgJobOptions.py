@@ -15,6 +15,6 @@ algseq = CfgMgr.AthSequencer("AthAlgSeq")                #gets the main AthSeque
 algseq += CfgMgr.ZdZdPlottingAlg()                                 #adds an instance of your alg to it
 
 if not hasattr(svcMgr, 'THistSvc'): svcMgr += CfgMgr.THistSvc() #only add the histogram service if not already present (will be the case in this jobo)
-svcMgr.THistSvc.Output += ["MYSTREAM DATAFILE='myfile.root' OPT='RECREATE'"] #add an output root file stream
+svcMgr.THistSvc.Output += ["MYSTREAM DATAFILE='dR_5GeV.root' OPT='RECREATE'"] #add an output root file stream
 #include("AthAnalysisBaseComps/SuppressLogging.py")              #Optional include to suppress as much athena output as possible. Keep at bottom of joboptions so that it doesn't suppress the logging of the things you have configured above
 
