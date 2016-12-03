@@ -45,7 +45,7 @@ void SetAtlasStyle ()
     
 
 
-  TFile* f = new TFile("myfile.root");
+  TFile* f = new TFile("dR_5GeV.root");
   //TStyle *atlasStyle = new TStyle("ATLAS","Atlas style");
   TCanvas *canv_1 = new TCanvas("c1", "c1",10,54,700,530);
   canv_1->Divide(3,1);
