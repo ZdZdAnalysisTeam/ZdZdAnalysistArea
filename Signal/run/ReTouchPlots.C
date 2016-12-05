@@ -45,13 +45,19 @@ void SetAtlasStyle ()
     
 
 
-  TFile* f = new TFile("dR_5GeV.root");
+  TFile* f = new TFile("dR_15GeV.root");
   //TStyle *atlasStyle = new TStyle("ATLAS","Atlas style");
   TCanvas *canv_1 = new TCanvas("c1", "c1",10,54,700,530);
-  canv_1->Divide(3,1);
+ TCanvas *canv_2 = new TCanvas("c2", "c2",10,54,700,530);
+ 
+ canv_1->Divide(3,2);
 
   // gStyle->SetOptStat(0);
- TH1F * myHist_DeltaR12_4e_channel = (TH1F*)f->Get("myHist_DeltaR12_4e_channel");
+  TH1F *myHist = (TH1F*)f->Get("myHist");
+ myHist->SetFillColor(38);
+ myHist->SetTitle("Evt/.1");
+
+  TH1F * myHist_DeltaR12_4e_channel = (TH1F*)f->Get("myHist_DeltaR12_4e_channel");
   myHist_DeltaR12_4e_channel->SetFillColor(38);
   myHist_DeltaR12_4e_channel->GetYaxis()->SetTitle("Evt/0.1");
   myHist_DeltaR12_4e_channel->GetXaxis()->SetTitle("#Delta R");
@@ -63,22 +69,42 @@ void SetAtlasStyle ()
   myHist_DeltaR12_4m_channel->SetFillColor(38);
   myHist_DeltaR12_4m_channel->GetYaxis()->SetTitle("Evt/0.1");
   myHist_DeltaR12_4m_channel->GetXaxis()->SetTitle("#Delta R");
+
+  TH1F * myHist_DeltaR34_4e_channel = (TH1F*)f->Get("myHist_DeltaR34_4e_channel");
+  myHist_DeltaR34_4e_channel->SetFillColor(38);
+  myHist_DeltaR34_4e_channel->GetYaxis()->SetTitle("Evt/0.1");
+  myHist_DeltaR34_4e_channel->GetXaxis()->SetTitle("#Delta R");
+  TH1F * myHist_DeltaR34_2e2m_channel = (TH1F*)f->Get("myHist_DeltaR34_2e2m_channel");
+  myHist_DeltaR34_2e2m_channel->SetFillColor(38);
+  myHist_DeltaR34_2e2m_channel->GetYaxis()->SetTitle("Evt/0.1");
+  myHist_DeltaR34_2e2m_channel->GetXaxis()->SetTitle("#Delta R");
+  TH1F * myHist_DeltaR34_4m_channel = (TH1F*)f->Get("myHist_DeltaR34_4m_channel");
+  myHist_DeltaR34_4m_channel->SetFillColor(38);
+  myHist_DeltaR34_4m_channel->GetYaxis()->SetTitle("Evt/0.1");
+  myHist_DeltaR34_4m_channel->GetXaxis()->SetTitle("#Delta R");
   
- TLatex *atexl=new TLatex(0.65,0.85,"ATLAS Internal");
+  /* TLatex *atexl=new TLatex(0.65,0.85,"ATLAS Internal");
  atexl->SetNDC();
  canv_1->cd(1);  
  myHist_DeltaR12_4e_channel->Draw("b");
  atexl->DrawText(0.6, 0.8, "dR12 4e_chann");
- atexl->DrawText(0.7, 0.7, "5 GeV");
  canv_1->cd(2);
  myHist_DeltaR12_2e2m_channel->Draw("b");
  atexl->DrawText(0.5, 0.8, "dR12 2e2m_chann");
- atexl->DrawText(0.7, 0.7, "5 GeV");
  canv_1->cd(3);
  myHist_DeltaR12_4m_channel->Draw("b");
  atexl->DrawText(0.6, 0.8, "dR12 4m_chann");
- atexl->DrawText(0.7, 0.7, "5 GeV");
- 
+
+ canv_1->cd(4);  
+ myHist_DeltaR34_4e_channel->Draw("b");
+ atexl->DrawText(0.6, 0.8, "dR34 4e_chann");
+ canv_1->cd(5);
+ myHist_DeltaR34_2e2m_channel->Draw("b");
+ atexl->DrawText(0.5, 0.8, "dR34 2e2m_chann");
+ canv_1->cd(6);
+ myHist_DeltaR34_4m_channel->Draw("b");
+ atexl->DrawText(0.6, 0.8, "dR34 4m_chann");*/
+ myHist->Draw("b"); 
  //f->Close();
 }
 
@@ -143,7 +169,7 @@ TStyle* AtlasStyle()
   atlasStyle->SetEndErrorSize(0.);
 
   // do not display any of the standard histogram decorations
-  atlasStyle->SetOptTitle(0);
+  //atlasStyle->SetOptTitle(0);
   //atlasStyle->SetOptStat(1111);
   atlasStyle->SetOptStat(0);
   //atlasStyle->SetOptFit(1111);
