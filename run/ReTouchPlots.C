@@ -4,6 +4,7 @@
 #include "TTree.h"
 #include "TH2.h"
 #include "TMath.h"
+#include "TGraph.h"
 #include "TColor.h"
 #include "TCanvas.h"
 #include "TLegend.h"
@@ -45,57 +46,74 @@ void SetAtlasStyle ()
     
 
 
-  TFile* f = new TFile("dR_15GeV.root");
+    TFile* f = new TFile("plots_15GeV_HM_DeltaMoMmax.root");
+  //  TFile* f2 = new TFile("plots_20GeV_HM_DeltaMoMmax.root");
+  // TFile* f3 = new TFile("plots_25GeV_HM_DeltaMoMmax.root");
+  // TFile* f4 = new TFile("plots_30GeV_HM_DeltaMoMmax.root");
+  // TFile* f5 = new TFile("plots_35GeV_HM_DeltaMoMmax.root");
+  // TFile* f6 = new TFile("plots_45GeV_HM_DeltaMoMmax.root");
+  // TFile* f7 = new TFile("plots_50GeV_HM_DeltaMoMmax.root");
+  // TFile* f8 = new TFile("plots_55GeV_HM_DeltaMoMmax.root");
+  // TFile* f9 = new TFile("plots_60GeV_HM_DeltaMoMmax.root");
   //TStyle *atlasStyle = new TStyle("ATLAS","Atlas style");
-  TCanvas *canv_1 = new TCanvas("c1", "c1",10,54,700,530);
- TCanvas *canv_2 = new TCanvas("c2", "c2",10,54,700,530);
+  // TCanvas *canv_1 = new TCanvas("c1", "c1",10,54,700,530);
+  // TCanvas *canv_2 = new TCanvas("c2", "c2",10,54,700,530);
  
- canv_1->Divide(3,2);
+  // canv_1->Divide(3,1);
 
   // gStyle->SetOptStat(0);
-  TH1F *myHist = (TH1F*)f->Get("myHist");
- myHist->SetFillColor(38);
- myHist->SetTitle("Evt/.1");
-
-  TH1F * myHist_DeltaR12_4e_channel = (TH1F*)f->Get("myHist_DeltaR12_4e_channel");
-  myHist_DeltaR12_4e_channel->SetFillColor(38);
-  myHist_DeltaR12_4e_channel->GetYaxis()->SetTitle("Evt/0.1");
-  myHist_DeltaR12_4e_channel->GetXaxis()->SetTitle("#Delta R");
-  TH1F * myHist_DeltaR12_2e2m_channel = (TH1F*)f->Get("myHist_DeltaR12_2e2m_channel");
-  myHist_DeltaR12_2e2m_channel->SetFillColor(38);
-  myHist_DeltaR12_2e2m_channel->GetYaxis()->SetTitle("Evt/0.1");
-  myHist_DeltaR12_2e2m_channel->GetXaxis()->SetTitle("#Delta R");
-  TH1F * myHist_DeltaR12_4m_channel = (TH1F*)f->Get("myHist_DeltaR12_4m_channel");
-  myHist_DeltaR12_4m_channel->SetFillColor(38);
-  myHist_DeltaR12_4m_channel->GetYaxis()->SetTitle("Evt/0.1");
-  myHist_DeltaR12_4m_channel->GetXaxis()->SetTitle("#Delta R");
-
-  TH1F * myHist_DeltaR34_4e_channel = (TH1F*)f->Get("myHist_DeltaR34_4e_channel");
+    // TH1F *myHist_LM_4m= (TH1F*)f->Get("myHist_LM_4m");
+    // myHist_LM_4m->SetFillColor(38);
+    // myHist_LM_4m->SetTitle("Evt/1");
+    // TH1F *myHist_HM_DeltaMoMmax = (TH1F*)f->Get("myHist_HM_DeltaMoMmax");
+    // myHist_HM_DeltaMoMmax->SetFillColor(38);
+    // myHist_DeltaM_vs_SigM_all_HM->SetTitle("Evt/0.1");
+    // myHist_DeltaM_vs_SigM_all_HM->GetXaxis()->SetTitle("#Sigma M");
+    // myHist_HM_4e_DeltaMoMmax->GetYaxis()->SetTitle("#Delta M/#M_{12}");
+    TH1F * myHist_4e_HM_DeltaMoMmax = (TH1F*)f->Get("myHist_HM_4e_DeltaMoMmax");
+    myHist_4e_HM_DeltaMoMmax->Fit("gaus");
+  myHist_4e_HM_DeltaMoMmax->SetFillColor(38);
+   myHist_4e_HM_DeltaMoMmax->SetTitle("");
+   //  myHist_4e_HM_DeltaMoMmax->GetXaxis()->SetTitle("#Sigma M");
+   myHist_4e_HM_DeltaMoMmax->GetYaxis()->SetTitle("#Delta M/M_{12}"); 
+  TH1F *myHist_HM_2e2m_DeltaMoMmax = (TH1F*)f->Get("myHist_HM_2e2m_DeltaMoMmax");
+   myHist_HM_2e2m_DeltaMoMmax->Fit("gaus"); 
+ myHist_HM_2e2m_DeltaMoMmax->SetFillColor(38);
+   myHist_HM_2e2m_DeltaMoMmax->SetTitle("");
+   // myHist_2e2m_HM_DeltaMoMmax->GetXaxis()->SetTitle("#Sigma M");
+ myHist_HM_2e2m_DeltaMoMmax->GetYaxis()->SetTitle("#Delta M/M_{12}");
+  TH1F * myHist_HM_4m_DeltaMoMmax = (TH1F*)f->Get("myHist_HM_4m_DeltaMoMmax");
+   myHist_HM_4m_DeltaMoMmax->Fit("gaus");
+   myHist_HM_4m_DeltaMoMmax->SetFillColor(38);
+   myHist_HM_4m_DeltaMoMmax->SetTitle("");
+  // myHist_4m_HM_DeltaMoMmax->GetXaxis()->SetTitle("#Sigma M");
+   myHist_HM_4m_DeltaMoMmax->GetYaxis()->SetTitle("#Delta M/M_{12}");
+  /* TH1F * myHist_DeltaR34_4e_channel = (TH1F*)f->Get("myHist_DeltaR34_4e_channel");
   myHist_DeltaR34_4e_channel->SetFillColor(38);
-  myHist_DeltaR34_4e_channel->GetYaxis()->SetTitle("Evt/0.1");
+  myHist_DeltaR34_4e_channel->SetTitle("Evt/0.1");
   myHist_DeltaR34_4e_channel->GetXaxis()->SetTitle("#Delta R");
   TH1F * myHist_DeltaR34_2e2m_channel = (TH1F*)f->Get("myHist_DeltaR34_2e2m_channel");
   myHist_DeltaR34_2e2m_channel->SetFillColor(38);
-  myHist_DeltaR34_2e2m_channel->GetYaxis()->SetTitle("Evt/0.1");
+  myHist_DeltaR34_2e2m_channel->SetTitle("Evt/0.1");
   myHist_DeltaR34_2e2m_channel->GetXaxis()->SetTitle("#Delta R");
   TH1F * myHist_DeltaR34_4m_channel = (TH1F*)f->Get("myHist_DeltaR34_4m_channel");
   myHist_DeltaR34_4m_channel->SetFillColor(38);
-  myHist_DeltaR34_4m_channel->GetYaxis()->SetTitle("Evt/0.1");
-  myHist_DeltaR34_4m_channel->GetXaxis()->SetTitle("#Delta R");
+  myHist_DeltaR34_4m_channel->SetTitle("Evt/0.1");
+  myHist_DeltaR34_4m_channel->GetXaxis()->SetTitle("#Delta R");*/
   
-  /* TLatex *atexl=new TLatex(0.65,0.85,"ATLAS Internal");
+   /*  TLatex *atexl=new TLatex(0.65,0.85,"ATLAS Internal");
  atexl->SetNDC();
  canv_1->cd(1);  
- myHist_DeltaR12_4e_channel->Draw("b");
- atexl->DrawText(0.6, 0.8, "dR12 4e_chann");
+ myHist_4e_HM_DeltaMoMmax->Draw("");
+  atexl->DrawText(0.6, 0.8, "4e_chann");
  canv_1->cd(2);
- myHist_DeltaR12_2e2m_channel->Draw("b");
- atexl->DrawText(0.5, 0.8, "dR12 2e2m_chann");
- canv_1->cd(3);
- myHist_DeltaR12_4m_channel->Draw("b");
- atexl->DrawText(0.6, 0.8, "dR12 4m_chann");
+ myHist_HM_2e2m_DeltaMoMmax->Draw("");
+ atexl->DrawText(0.5, 0.8, " 2e2m_chann");
+  canv_1->cd(3);
+  myHist_HM_4m_DeltaMoMmax->Draw("");
+  atexl->DrawText(0.6, 0.8, " 4m_chann");*/
 
- canv_1->cd(4);  
+ /*canv_1->cd(4);  
  myHist_DeltaR34_4e_channel->Draw("b");
  atexl->DrawText(0.6, 0.8, "dR34 4e_chann");
  canv_1->cd(5);
@@ -104,8 +122,11 @@ void SetAtlasStyle ()
  canv_1->cd(6);
  myHist_DeltaR34_4m_channel->Draw("b");
  atexl->DrawText(0.6, 0.8, "dR34 4m_chann");*/
- myHist->Draw("b"); 
+   // myHist_LM_4m->Draw("b"); 
  //f->Close();
+
+
+  
 }
 
 TStyle* AtlasStyle() 
