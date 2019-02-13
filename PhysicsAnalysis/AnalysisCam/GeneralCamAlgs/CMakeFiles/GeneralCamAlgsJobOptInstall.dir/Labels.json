@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/jobOptions/GeneralCamAlgs/GeneralCamAlgsAlgJobOptions.py"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/GeneralCamAlgs/share/GeneralCamAlgsAlgJobOptions.py"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/jobOptions/GeneralCamAlgs/GeneralCamAlgsAlgJobOptions.py.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"GeneralCamAlgs"
+		],
+		"name" : "GeneralCamAlgsJobOptInstall"
+	}
+}

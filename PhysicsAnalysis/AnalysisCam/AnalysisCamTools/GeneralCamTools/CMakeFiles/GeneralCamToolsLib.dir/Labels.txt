@@ -1,0 +1,18 @@
+# Target labels
+ GeneralCamTools
+# Source files and their labels
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamElProvider.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamElSfProvider.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamEleSelector.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamEventPreselectionTool.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamJetProvider.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamJetSelector.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamJetSfProvider.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamMETProvider.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamMuonProvider.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamMuonSelector.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamMuonSfProvider.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamTauProvider.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamTauSelector.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/ChannelInfoTool.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/xAODLumiSvc.cxx

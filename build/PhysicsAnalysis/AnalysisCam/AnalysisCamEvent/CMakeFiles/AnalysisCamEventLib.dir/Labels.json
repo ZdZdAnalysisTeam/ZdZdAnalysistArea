@@ -1,0 +1,113 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/AnalysisCamEventDict.h"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamAlgorithm.h"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamAudit.h"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamDeque.h"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamEvent.h"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamMetaData.h"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamObject.h"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamProperty.h"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamService.h"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamTool.h"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamVector.h"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamWriter.h"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/ExecuteTimeEstimator.h"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/ICamService.h"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/ICamTool.h"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/LinkDef.h"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamAlgorithm.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamAudit.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamDeque.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamEvent.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamExampleAlg.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamMetaData.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamObject.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamProperty.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamService.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamTool.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamVector.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamWriter.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamxAODExampleAlg.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/ExecuteTimeEstimator.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/build/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/CMakeFiles/AnalysisCamEventCintDict.cxx",
+			"labels" : 
+			[
+				"AnalysisCamEvent"
+			]
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/build/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/CMakeFiles/AnalysisCamEventCintDict.cxx.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AnalysisCamEvent"
+		],
+		"name" : "AnalysisCamEventLib"
+	}
+}

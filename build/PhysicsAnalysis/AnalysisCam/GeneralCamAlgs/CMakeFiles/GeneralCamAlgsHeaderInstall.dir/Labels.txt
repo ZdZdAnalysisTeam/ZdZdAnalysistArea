@@ -1,0 +1,7 @@
+# Target labels
+ GeneralCamAlgs
+# Source files and their labels
+/afs/cern.ch/work/d/diboye/diallo_new/build/x86_64-slc6-gcc62-opt/include/GeneralCamAlgs
+/afs/cern.ch/work/d/diboye/diallo_new/build/x86_64-slc6-gcc62-opt/include/NOCLID
+/afs/cern.ch/work/d/diboye/diallo_new/build/x86_64-slc6-gcc62-opt/include/GeneralCamAlgs.rule
+/afs/cern.ch/work/d/diboye/diallo_new/build/x86_64-slc6-gcc62-opt/include/NOCLID.rule

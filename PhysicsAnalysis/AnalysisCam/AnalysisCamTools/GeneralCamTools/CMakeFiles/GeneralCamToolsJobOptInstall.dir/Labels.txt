@@ -1,0 +1,5 @@
+# Target labels
+ GeneralCamTools
+# Source files and their labels
+/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/jobOptions/GeneralCamTools/configs
+/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/jobOptions/GeneralCamTools/configs.rule

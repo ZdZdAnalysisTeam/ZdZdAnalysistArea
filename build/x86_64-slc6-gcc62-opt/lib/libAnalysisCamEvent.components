@@ -1,0 +1,6 @@
+libAnalysisCamEvent.so:CamAlgorithm
+libAnalysisCamEvent.so:CamExampleAlg
+libAnalysisCamEvent.so:CamMetaData
+libAnalysisCamEvent.so:CamWriter
+libAnalysisCamEvent.so:CamxAODExampleAlg
+libAnalysisCamEvent.so:ExecuteTimeEstimator

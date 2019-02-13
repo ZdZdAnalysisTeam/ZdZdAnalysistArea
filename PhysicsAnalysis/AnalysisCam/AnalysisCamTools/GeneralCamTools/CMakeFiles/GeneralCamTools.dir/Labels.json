@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/components/GeneralCamTools_entries.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/components/GeneralCamTools_load.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"GeneralCamTools"
+		],
+		"name" : "GeneralCamTools"
+	}
+}

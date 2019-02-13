@@ -1,0 +1,58 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamElProvider.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamElSfProvider.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamEleSelector.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamEventPreselectionTool.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamJetProvider.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamJetSelector.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamJetSfProvider.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamMETProvider.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamMuonProvider.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamMuonSelector.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamMuonSfProvider.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamTauProvider.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/CamTauSelector.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/ChannelInfoTool.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/xAODLumiSvc.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"GeneralCamTools"
+		],
+		"name" : "GeneralCamToolsLib"
+	}
+}

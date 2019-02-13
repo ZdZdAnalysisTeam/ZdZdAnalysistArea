@@ -1,0 +1,5 @@
+/afs/cern.ch/work/d/diboye/diallo_new/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent_clid.db
+/afs/cern.ch/work/d/diboye/diallo_new/PhysicsAnalysis/AnalysisCam/AnalysisCamExample/AnalysisCamExample_clid.db
+/afs/cern.ch/work/d/diboye/diallo_new/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/GeneralCamTools_clid.db
+/afs/cern.ch/work/d/diboye/diallo_new/PhysicsAnalysis/AnalysisCam/GeneralCamAlgs/GeneralCamAlgs_clid.db
+/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPlotting/ZdZdPlotting_clid.db

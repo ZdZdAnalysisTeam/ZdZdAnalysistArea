@@ -1,0 +1,5 @@
+# Target labels
+ AnalysisCamExample
+# Source files and their labels
+/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/include/AnalysisCamExample
+/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/include/AnalysisCamExample.rule

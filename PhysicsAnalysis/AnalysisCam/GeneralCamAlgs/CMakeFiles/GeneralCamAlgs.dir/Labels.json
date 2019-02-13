@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/GeneralCamAlgs/src/NtupleCopyAlg.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/GeneralCamAlgs/src/SumOfWeightsAlg.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/GeneralCamAlgs/src/components/GeneralCamAlgs_entries.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/GeneralCamAlgs/src/components/GeneralCamAlgs_load.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"GeneralCamAlgs"
+		],
+		"name" : "GeneralCamAlgs"
+	}
+}

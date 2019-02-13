@@ -1,0 +1,6 @@
+# Target labels
+ ZdZdPlotting
+# Source files and their labels
+/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/ZdZdPlotting/src/ZdZdPlottingAlg.cxx
+/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/ZdZdPlotting/src/components/ZdZdPlotting_entries.cxx
+/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/ZdZdPlotting/src/components/ZdZdPlotting_load.cxx

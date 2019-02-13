@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamExample/src/AnalysisCamExampleAlg.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AnalysisCamExample"
+		],
+		"name" : "AnalysisCamExampleLib"
+	}
+}

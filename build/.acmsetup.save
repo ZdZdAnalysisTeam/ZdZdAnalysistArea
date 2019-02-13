@@ -1,0 +1,4 @@
+SourceArea = /afs/cern.ch/work/d/diboye/diallo_new/build/../ZdZdPostProcessing
+TestArea = /afs/cern.ch/work/d/diboye/diallo_new/build
+ACM_GITLAB_PATH_PREFIX = https://:@gitlab.cern.ch:8443/
+asetupArguments = AthAnalysis,21.2.48

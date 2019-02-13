@@ -1,0 +1,6 @@
+# Target labels
+ ZdZdPlotting
+# Source files and their labels
+/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/data/ZdZdPlotting/signal_mc16a_crossSections.txt
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/ZdZdPlotting/share/signal_mc16a_crossSections.txt
+/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/data/ZdZdPlotting/signal_mc16a_crossSections.txt.rule

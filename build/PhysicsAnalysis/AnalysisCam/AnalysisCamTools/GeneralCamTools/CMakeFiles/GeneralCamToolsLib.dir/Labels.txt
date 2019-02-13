@@ -1,0 +1,4 @@
+# Target labels
+ GeneralCamTools
+# Source files and their labels
+/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/ChannelInfoTool.cxx

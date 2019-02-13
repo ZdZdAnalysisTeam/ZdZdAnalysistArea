@@ -1,0 +1,11 @@
+libAnalysisCamEvent.so:CamAlgorithm
+libAnalysisCamEvent.so:CamExampleAlg
+libAnalysisCamEvent.so:CamMetaData
+libAnalysisCamEvent.so:CamWriter
+libAnalysisCamEvent.so:CamxAODExampleAlg
+libAnalysisCamEvent.so:ExecuteTimeEstimator
+libGeneralCamTools.so:ChannelInfoTool
+libGeneralCamAlgs.so:NtupleCopyAlg
+libGeneralCamAlgs.so:NtupleCutAlg
+libGeneralCamAlgs.so:SumOfWeightsCamAlg
+libZdZdPlotting.so:ZdZdPlottingAlg

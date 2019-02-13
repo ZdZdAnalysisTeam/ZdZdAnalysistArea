@@ -1,0 +1,6 @@
+# Target labels
+ AnalysisCamExample
+# Source files and their labels
+/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/jobOptions/AnalysisCamExample/AnalysisCamExampleAlgJobOptions.py
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamExample/share/AnalysisCamExampleAlgJobOptions.py
+/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/jobOptions/AnalysisCamExample/AnalysisCamExampleAlgJobOptions.py.rule

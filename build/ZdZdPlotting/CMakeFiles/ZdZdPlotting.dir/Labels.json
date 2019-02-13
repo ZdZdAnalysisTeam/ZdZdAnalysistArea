@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/ZdZdPlotting/src/ZdZdPlottingAlg.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/ZdZdPlotting/src/components/ZdZdPlotting_entries.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/ZdZdPlotting/src/components/ZdZdPlotting_load.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ZdZdPlotting"
+		],
+		"name" : "ZdZdPlotting"
+	}
+}

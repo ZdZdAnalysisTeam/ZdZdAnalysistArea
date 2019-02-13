@@ -1,0 +1,4 @@
+# Target labels
+ AnalysisCamExample
+# Source files and their labels
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamExample/src/AnalysisCamExampleAlg.cxx

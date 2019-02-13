@@ -1,0 +1,5 @@
+/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/lib/libAnalysisCamEvent.components
+/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/lib/libAnalysisCamExample.components
+/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/lib/libGeneralCamTools.components
+/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/lib/libGeneralCamAlgs.components
+/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/lib/libZdZdPlotting.components

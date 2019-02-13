@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools/src/ChannelInfoTool.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"GeneralCamTools"
+		],
+		"name" : "GeneralCamToolsLib"
+	}
+}

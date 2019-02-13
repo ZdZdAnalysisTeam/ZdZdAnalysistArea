@@ -1,7 +1,0 @@
-<lcgdict>
-	
-	<class name="CamObject"	/>
-        <class name="CamEvent" />
-        <class name="CamVector" />
-        
-</lcgdict>

@@ -1,0 +1,2 @@
+/afs/cern.ch/work/d/diboye/diallo_new/build/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/CMakeFiles/AnalysisCamEvent.dsomap
+/afs/cern.ch/work/d/diboye/diallo_new/build/PhysicsAnalysis/AnalysisCam/AnalysisCamROOT/CMakeFiles/AnalysisCamROOTLib.dsomap

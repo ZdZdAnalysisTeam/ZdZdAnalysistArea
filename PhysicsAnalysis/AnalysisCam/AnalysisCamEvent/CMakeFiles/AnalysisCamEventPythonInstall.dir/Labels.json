@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/python/AnalysisCamEvent/ExecuteTimeEstimator.py"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/python/ExecuteTimeEstimator.py"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/python/AnalysisCamEvent/ExecuteTimeEstimator.py.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AnalysisCamEvent"
+		],
+		"name" : "AnalysisCamEventPythonInstall"
+	}
+}

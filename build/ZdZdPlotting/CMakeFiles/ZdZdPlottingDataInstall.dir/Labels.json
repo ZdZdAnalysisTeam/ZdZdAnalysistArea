@@ -1,0 +1,31 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/build/x86_64-slc6-gcc62-opt/data/ZdZdPlotting/crossSections.txt"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/build/x86_64-slc6-gcc62-opt/data/ZdZdPlotting/signal_mc16a_crossSections.txt"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/ZdZdPlotting/share/crossSections.txt"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/ZdZdPlotting/share/signal_mc16a_crossSections.txt"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/build/x86_64-slc6-gcc62-opt/data/ZdZdPlotting/crossSections.txt.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/build/x86_64-slc6-gcc62-opt/data/ZdZdPlotting/signal_mc16a_crossSections.txt.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ZdZdPlotting"
+		],
+		"name" : "ZdZdPlottingDataInstall"
+	}
+}

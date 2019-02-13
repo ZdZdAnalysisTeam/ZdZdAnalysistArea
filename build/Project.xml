@@ -1,0 +1,13 @@
+<!-- Auto-generated file, please do not edit -->
+<Project name="WorkDir" >
+   <SubProject name="AnalysisCamEvent" >
+   </SubProject>
+   <SubProject name="AnalysisCamROOT" >
+   </SubProject>
+   <SubProject name="GeneralCamTools" >
+   </SubProject>
+   <SubProject name="GeneralCamAlgs" >
+   </SubProject>
+   <SubProject name="ZdZdPlotting" >
+   </SubProject>
+</Project>

@@ -1,0 +1,6 @@
+# Regular package(s) built in WorkDir - 1.0.0
+PhysicsAnalysis/AnalysisCam/AnalysisCamEvent AnalysisCamEvent-02-00-00-branch
+PhysicsAnalysis/AnalysisCam/AnalysisCamROOT AnalysisCamROOT-02-00-00-branch
+PhysicsAnalysis/AnalysisCam/AnalysisCamTools/GeneralCamTools GeneralCamTools-r596114
+PhysicsAnalysis/AnalysisCam/GeneralCamAlgs GeneralCamAlgs-00-00-01
+ZdZdPlotting ZdZdPlotting-00-00-00

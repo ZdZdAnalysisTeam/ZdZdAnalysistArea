@@ -1,0 +1,5 @@
+# Target labels
+ AnalysisCamEvent
+# Source files and their labels
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/components/AnalysisCamEvent_entries.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/components/AnalysisCamEvent_load.cxx

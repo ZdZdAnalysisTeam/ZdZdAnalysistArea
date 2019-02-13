@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/build/x86_64-slc6-gcc62-opt/include/GeneralCamAlgs"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/build/x86_64-slc6-gcc62-opt/include/NOCLID"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/build/x86_64-slc6-gcc62-opt/include/GeneralCamAlgs.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/build/x86_64-slc6-gcc62-opt/include/NOCLID.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"GeneralCamAlgs"
+		],
+		"name" : "GeneralCamAlgsHeaderInstall"
+	}
+}

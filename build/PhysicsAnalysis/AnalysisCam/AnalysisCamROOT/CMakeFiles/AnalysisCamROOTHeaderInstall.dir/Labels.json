@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/build/x86_64-slc6-gcc62-opt/include/AnalysisCamROOT"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/build/x86_64-slc6-gcc62-opt/include/AnalysisCamROOT.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AnalysisCamROOT"
+		],
+		"name" : "AnalysisCamROOTHeaderInstall"
+	}
+}

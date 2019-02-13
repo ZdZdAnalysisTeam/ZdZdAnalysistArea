@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/include/GeneralCamAlgs"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/include/GeneralCamAlgs.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"GeneralCamAlgs"
+		],
+		"name" : "GeneralCamAlgsHeaderInstall"
+	}
+}

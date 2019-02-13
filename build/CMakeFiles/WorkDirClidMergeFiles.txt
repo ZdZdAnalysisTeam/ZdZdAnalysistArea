@@ -1,0 +1,2 @@
+/afs/cern.ch/work/d/diboye/diallo_new/build/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent_clid.db
+/afs/cern.ch/work/d/diboye/diallo_new/build/PhysicsAnalysis/AnalysisCam/GeneralCamAlgs/GeneralCamAlgs_clid.db

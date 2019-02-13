@@ -1,0 +1,36 @@
+# Target labels
+ AnalysisCamEvent
+# Source files and their labels
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/AnalysisCamEventDict.h
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamAlgorithm.h
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamAudit.h
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamDeque.h
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamEvent.h
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamMetaData.h
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamObject.h
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamProperty.h
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamService.h
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamTool.h
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamVector.h
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/CamWriter.h
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/ExecuteTimeEstimator.h
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/ICamService.h
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/ICamTool.h
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/AnalysisCamEvent/LinkDef.h
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamAlgorithm.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamAudit.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamDeque.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamEvent.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamExampleAlg.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamMetaData.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamObject.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamProperty.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamService.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamTool.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamVector.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamWriter.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/CamxAODExampleAlg.cxx
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/ExecuteTimeEstimator.cxx
+/afs/cern.ch/work/d/diboye/diallo_new/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/CMakeFiles/AnalysisCamEventCintDict.cxx
+ AnalysisCamEvent
+/afs/cern.ch/work/d/diboye/diallo_new/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/CMakeFiles/AnalysisCamEventCintDict.cxx.rule

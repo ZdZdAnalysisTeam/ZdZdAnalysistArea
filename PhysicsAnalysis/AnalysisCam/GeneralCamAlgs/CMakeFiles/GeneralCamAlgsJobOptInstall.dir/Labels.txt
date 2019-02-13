@@ -1,0 +1,6 @@
+# Target labels
+ GeneralCamAlgs
+# Source files and their labels
+/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/jobOptions/GeneralCamAlgs/GeneralCamAlgsAlgJobOptions.py
+/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/GeneralCamAlgs/share/GeneralCamAlgsAlgJobOptions.py
+/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/jobOptions/GeneralCamAlgs/GeneralCamAlgsAlgJobOptions.py.rule

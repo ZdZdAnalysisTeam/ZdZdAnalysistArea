@@ -1,0 +1,8 @@
+# Target labels
+ GeneralCamAlgs
+# Source files and their labels
+/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/GeneralCamAlgs/src/NtupleCopyAlg.cxx
+/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/GeneralCamAlgs/src/NtupleCutAlg.cxx
+/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/GeneralCamAlgs/src/SumOfWeightsCamAlg.cxx
+/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/GeneralCamAlgs/src/components/GeneralCamAlgs_entries.cxx
+/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/GeneralCamAlgs/src/components/GeneralCamAlgs_load.cxx

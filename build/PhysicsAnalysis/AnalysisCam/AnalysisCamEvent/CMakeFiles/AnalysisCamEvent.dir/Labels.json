@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/components/AnalysisCamEvent_entries.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamEvent/src/components/AnalysisCamEvent_load.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AnalysisCamEvent"
+		],
+		"name" : "AnalysisCamEvent"
+	}
+}

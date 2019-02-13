@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/jobOptions/AnalysisCamExample/AnalysisCamExampleAlgJobOptions.py"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamExample/share/AnalysisCamExampleAlgJobOptions.py"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/x86_64-slc6-gcc62-opt/jobOptions/AnalysisCamExample/AnalysisCamExampleAlgJobOptions.py.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AnalysisCamExample"
+		],
+		"name" : "AnalysisCamExampleJobOptInstall"
+	}
+}

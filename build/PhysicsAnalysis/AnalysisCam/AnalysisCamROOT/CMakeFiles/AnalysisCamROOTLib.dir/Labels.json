@@ -1,0 +1,26 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/ZdZdPostProcessing/PhysicsAnalysis/AnalysisCam/AnalysisCamROOT/src/TChannelInfo.cxx"
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/build/PhysicsAnalysis/AnalysisCam/AnalysisCamROOT/CMakeFiles/AnalysisCamROOTLibCintDict.cxx",
+			"labels" : 
+			[
+				"AnalysisCamROOT"
+			]
+		},
+		{
+			"file" : "/afs/cern.ch/work/d/diboye/diallo_new/build/PhysicsAnalysis/AnalysisCam/AnalysisCamROOT/CMakeFiles/AnalysisCamROOTLibCintDict.cxx.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AnalysisCamROOT"
+		],
+		"name" : "AnalysisCamROOTLib"
+	}
+}

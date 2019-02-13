@@ -1,0 +1,3 @@
+libGeneralCamAlgs.so:NtupleCopyAlg
+libGeneralCamAlgs.so:NtupleCutAlg
+libGeneralCamAlgs.so:SumOfWeightsCamAlg
